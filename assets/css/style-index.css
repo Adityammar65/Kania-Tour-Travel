@@ -21,6 +21,7 @@ body {
 #welcome-section {
     background-image: url('https://kaniatourtravel.com/storage/app/public/img/home/carousel_____62fdb7c363dbd__80.jpg');
     object-fit: contain;
+    background-repeat: no-repeat;
     height: 400px;
     color: white;
 }
