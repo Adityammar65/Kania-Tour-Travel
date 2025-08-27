@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#brand-logo {
+    width: 75px;
+}
+
+.navbar {
+    background-color: #0078B6 !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    font-size: 18px;
+    font-weight: medium;
+}
+
+#welcome-section {
+    background-image: url('https://kaniatourtravel.com/storage/app/public/img/home/carousel_____62fdb7c363dbd__80.jpg');
+    object-fit: contain;
+    height: 400px;
+    color: white;
+}
+
+.card {
+    height: 500px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-img-top {
+    height: 280px;
+    width: auto;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#social-media {
+    width: 50px;
+    margin: 10px;
+}
+
+footer,
+footer a {
+    color: white;
+    background-color: #0078AA;
+}
+
+.carousel-item .carousel-caption {
+    color: white;
+    -webkit-text-stroke: 0.9px rgb(68, 67, 67);
+    font-weight: bold;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    #brand {
+        font-size: 1rem;
+    }
+
+    #brand-logo {
+        width: 50px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 12px;
+    }
+
+    .jumbotron p,
+    .jumbotron h1 {
+        font-size: 0.9rem;
+    }
+
+    #contact {
+        text-align: center;
+    }
+
+    #navigation {
+        text-align: center;
+    }
+
+    #copyright {
+        margin-top: 16px;
+        text-align: center;
+    }
+
+    #social .wrapper a img {
+        width: 35px;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
