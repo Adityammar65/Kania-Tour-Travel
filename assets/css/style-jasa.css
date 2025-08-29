@@ -17,33 +17,35 @@ body {
     font-weight: medium;
 }
 
-#welcome-section {
-    background-image: url('https://kaniatourtravel.com/storage/app/public/img/home/carousel_____62fdb7c363dbd__80.jpg');
-    object-fit: contain;
-    background-repeat: no-repeat;
-    height: 400px;
-    color: white;
+#list-lokasi {
+    list-style-type: none;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
 }
 
-.card {
-    height: 500px;
+#list-lokasi li {
+    padding: 8px;
+}
+
+#list-row .card {
+    box-shadow: 0 4px 8px #c2c2c2;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card-img-top {
-    height: 280px;
-    width: auto;
-    object-fit: cover;
-}
-
-.card:hover {
+#list-row .card:hover {
     transform: scale(1.02);
-    box-shadow: 0 4px 8px #0078B6;
+    box-shadow: 0 2px 8px #0078B6;
 }
 
-#social-media {
-    width: 50px;
-    margin: 10px;
+#collapse-button{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#collapse-button:hover{
+    color: #0078B6 !important;
 }
 
 footer,
@@ -52,9 +54,9 @@ footer a {
     background-color: #0078AA;
 }
 
-.carousel-item .carousel-caption {
-    color: white;
-    font-weight: bold;
+#social-media {
+    width: 50px;
+    margin: 10px;
 }
 
 /* RESPONSIVE */
@@ -69,15 +71,6 @@ footer a {
 
     .navbar-nav .nav-item .nav-link {
         font-size: 12px;
-    }
-
-    #welcome-section {
-        height: fit-content;
-    }
-
-    .jumbotron p,
-    .jumbotron h1 {
-        font-size: 0.7rem;
     }
 
     #contact {
@@ -99,15 +92,5 @@ footer a {
 
     footer {
         font-size: 0.7rem;
-    }
-
-    .carousel-item .carousel-caption h5,
-    .carousel-item .carousel-caption p {
-        font-size: 0.8rem;
-    }
-
-    .carousel-item img{
-        height: 300px;
-        object-fit: cover;
     }
 }
