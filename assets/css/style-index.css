@@ -15,6 +15,12 @@ body {
 .navbar-nav .nav-item .nav-link {
     font-size: 18px;
     font-weight: medium;
+    transition: 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: white !important;
+    text-decoration: underline;
 }
 
 #welcome-section {
@@ -106,7 +112,7 @@ footer a {
         font-size: 0.8rem;
     }
 
-    .carousel-item img{
+    .carousel-item img {
         height: 300px;
         object-fit: cover;
     }

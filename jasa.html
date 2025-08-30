@@ -45,17 +45,17 @@
     </nav>
 
     <!--JUMBOTRON JASA-->
-    <div id="jasa-section" class="jumbotron text-center py-5 px-5">
+    <div id="jasa-section" class="jumbotron text-center py-3 px-4 py-md-5 px-md-5">
         <p class="lead fw-medium">Sejak Agustus 2013, Kania Tour & Travel hadir sebagai penyedia layanan transportasi
             dan perjalanan wisata yang terpercaya.</p>
-        <hr class="my-4 border-3">
+        <hr class="my-2 my-md-4 border-3">
         <p class="fw-medium">Selain paket tour, kami hadir dengan layanan sewa transportasi yang siap mengantar Anda ke
             berbagai destinasi di seluruh Indonesia, di antaranya:</p>
     </div>
 
-    <!--LIST-->
-    <div class="container">
-        <div class="row d-md-flex justify-content-center py-3" id="list-row">
+    <!--LIST (DESKTOP VIEW)-->
+    <div class="container d-none d-md-block">
+        <div class="row d-flex justify-content-center py-3" id="list-row">
 
             <!--JAWA BARAT-->
             <div class="col-4">
@@ -106,7 +106,7 @@
             </div>
         </div>
 
-        <div class="row d-md-flex justify-content-center py-3" id="list-row">
+        <div class="row d-flex justify-content-center py-3" id="list-row">
 
             <!--SUMATERA-->
             <div class="col-4">
@@ -140,22 +140,160 @@
             </div>
         </div>
 
-        <div class="row d-md-flex justify-content-center py-5" id="list-row">
+        <div class="row d-flex justify-content-center py-5">
 
             <!--LAINNYA-->
             <div class="col">
-                <a id="collapse-button" class="text-center text-decoration-none text-dark" data-bs-toggle="collapse" href="#collapseExample"
-                    role="button" aria-expanded="false" aria-controls="collapseExample">
+                <a id="collapse-button" class="text-center text-decoration-none text-dark" data-bs-toggle="collapse"
+                    href="#collapseDesktop" role="button" aria-expanded="false" aria-controls="collapseDesktop">
                     <div class="card-body">
-                        <h5>Dan kota-kota besar lainnya</h5>
+                        <h5>Lihat lebih lengkap</h5>
                     </div>
                 </a>
-                <div class="collapse" id="collapseExample">
+                <div class="collapse" id="collapseDesktop">
                     <div class="card card-body">
-                        Some placeholder content for the collapse component. This panel is hidden by default but
-                        revealed when the user activates the relevant trigger.
+                        <p class="text-center">Daftar kota besar yang kami layani:</p>
+                        <ul class="d-flex flex-row justify-content-center">
+                            <li>Yogyakarta</li>
+                            <li>Solo</li>
+                            <li>Semarang</li>
+                            <li>Surabaya</li>
+                            <li>Jakarta</li>
+                            <li>Tangerang</li>
+                            <li>Bandung</li>
+                            <li>Bogor</li>
+                            <li>Bekasi</li>
+                            <li>Cirebon</li>
+                            <li>Depok</li>
+                            <li>Karawang</li>
+                            <li>Purwakarta</li>
+                            <li>Wonososbo</li>
+                            <li>Bali</li>
+                            <li>Denpasar</li>
+                            <li>Lombok</li>
+                            <li>Lampung</li>
+                            <li>Palembang</li>
+                            <li>Pekanbaru</li>
+                            <li>Medan</li>
+                            <li>Aceh</li>
+                            <li>Makassar</li>
+                            <li>Manado</li>
+                            <li>Malang</li>
+                            <li>Madiun</li>
+                            <li>Blitar</li>
+                            <li>Kediri</li>
+                            <li>Banyuwangi</li>
+                            <li>Balikpapan</li>
+                            <li>Samarinda</li>
+                            <li>Tanjung Pinang</li>
+                        </ul>
+                        <p class="text-center">Dan kota lainnya</p>
+                        <a id="collapse-button" class="text-center text-decoration-none text-dark"
+                            data-bs-toggle="collapse" href="#collapseDesktop" role="button" aria-expanded="false"
+                            aria-controls="collapseDesktop">Tutup</a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!--LIST (MOBILE VIEW)-->
+    <div class="container d-block d-md-none">
+        <div class="row" id="list-lokasi-mobile">
+            <div class="col-4">
+                <div class="card card-body my-1">
+                    <p>Jabodetabek</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card card-body my-1">
+                    <p>Yogyakarta, Solo, Semarang</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card card-body my-1">
+                    <p>Bali & Denpasar</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card card-body my-1">
+                    <p>Surabaya, Malang, Banyuwangi</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card card-body my-1">
+                    <p>Medan, Manado, Pekanbaru</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card card-body my-1">
+                    <p>Balikpapan, Makassar, Manado</p>
+                </div>
+            </div>
+        </div>
+        <div class="row py-2">
+
+            <!--LAINNYA-->
+            <div class="col">
+                <a id="collapse-button-mobile" class="text-center text-decoration-none text-dark"
+                    data-bs-toggle="collapse" href="#collapseMobile" role="button" aria-expanded="false"
+                    aria-controls="collapseMobile">
+                    <div class="card-body">
+                        <p>Lihat lebih lengkap</p>
+                    </div>
+                </a>
+                <div class="collapse" id="collapseMobile">
+                    <div class="card card-body">
+                        <p class="text-center">Daftar kota besar yang kami layani:</p>
+                        <ul class="d-flex flex-row justify-content-center">
+                            <li>Yogyakarta</li>
+                            <li>Solo</li>
+                            <li>Semarang</li>
+                            <li>Surabaya</li>
+                            <li>Jakarta</li>
+                            <li>Tangerang</li>
+                            <li>Bandung</li>
+                            <li>Bogor</li>
+                            <li>Bekasi</li>
+                            <li>Cirebon</li>
+                            <li>Depok</li>
+                            <li>Karawang</li>
+                            <li>Purwakarta</li>
+                            <li>Wonososbo</li>
+                            <li>Bali</li>
+                            <li>Denpasar</li>
+                            <li>Lombok</li>
+                            <li>Lampung</li>
+                            <li>Palembang</li>
+                            <li>Pekanbaru</li>
+                            <li>Medan</li>
+                            <li>Aceh</li>
+                            <li>Makassar</li>
+                            <li>Manado</li>
+                            <li>Malang</li>
+                            <li>Madiun</li>
+                            <li>Blitar</li>
+                            <li>Kediri</li>
+                            <li>Banyuwangi</li>
+                            <li>Balikpapan</li>
+                            <li>Samarinda</li>
+                            <li>Tanjung Pinang</li>
+                        </ul>
+                        <p class="text-center">Dan kota lainnya</p>
+                        <a id="collapse-button-mobile" class="text-center text-decoration-none text-dark"
+                            data-bs-toggle="collapse" href="#collapseMobile" role="button" aria-expanded="false"
+                            aria-controls="collapseMobile">Tutup</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="text-center" id="layanan-lain">Tidak hanya transportasi, kami juga melayani pemesanan hotel dan
+                    tiket pesawat untuk kenyamanan perjalanan Anda.</p>
             </div>
         </div>
     </div>

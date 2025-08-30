@@ -15,6 +15,12 @@ body {
 .navbar-nav .nav-item .nav-link {
     font-size: 18px;
     font-weight: medium;
+    transition: 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: white !important;
+    text-decoration: underline;
 }
 
 #list-lokasi {
@@ -40,12 +46,21 @@ body {
     box-shadow: 0 2px 8px #0078B6;
 }
 
-#collapse-button{
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+#collapse-button {
+    transition: 0.3s ease;
 }
 
-#collapse-button:hover{
+#collapse-button:hover {
     color: #0078B6 !important;
+}
+
+#collapseDesktop .card-body ul {
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+#collapseDesktop .card-body li {
+    padding: 8px;
 }
 
 footer,
@@ -57,6 +72,33 @@ footer a {
 #social-media {
     width: 50px;
     margin: 10px;
+}
+
+#list-lokasi-mobile .card-body p {
+    font-size: 0.75rem;
+    text-align: center;
+    min-height: 40px;
+    margin: 0;
+}
+
+#collapseMobile .card-body p {
+    font-size: 0.75rem;
+}
+
+#collapseMobile .card-body ul {
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+#collapseMobile .card-body li {
+    list-style: none;
+    font-size: 0.75rem;
+    padding: 4px;
+}
+
+#collapse-button-mobile {
+    font-size: 0.75rem;
 }
 
 /* RESPONSIVE */
@@ -71,6 +113,11 @@ footer a {
 
     .navbar-nav .nav-item .nav-link {
         font-size: 12px;
+    }
+
+    #jasa-section p,
+    #layanan-lain {
+        font-size: 0.7rem;
     }
 
     #contact {
