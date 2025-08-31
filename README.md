@@ -23,7 +23,7 @@ Redesign ini dibuat untuk memberikan tampilan yang lebih modern, responsif, dan 
 
 2. Masuk ke folder project
     ```bash
-    cd kania-tour-travel
+    cd Kania-Tour-Travel
 
 3. Buka file index.html di browser
 
@@ -36,6 +36,8 @@ Dalam proses pengembangan redesign ini, digunakan IBM Granite AI sebagai penduku
 3. Mempercepat proses penulisan serta optimasi kode.
 
 ## Lampiran
-Link presentasi project: https://drive.google.com/file/d/11uwELAolrk2j7P0y6PJvrffecb78UAtP/view?usp=sharing
-Link deployment GitHub: https://adityammar65.github.io/Kania-Tour-Travel/
-Link deployment Netlify: https://kaniatourandtravelredesign.netlify.app/
+1. Link presentasi project: https://drive.google.com/file/d/11uwELAolrk2j7P0y6PJvrffecb78UAtP/view?usp=sharing
+
+2. Link deployment GitHub: https://adityammar65.github.io/Kania-Tour-Travel/
+
+3. Link deployment Netlify: https://kaniatourandtravelredesign.netlify.app/
