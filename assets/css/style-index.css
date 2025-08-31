@@ -79,6 +79,7 @@ footer a {
 
     #welcome-section {
         height: fit-content;
+        object-fit: cover;
     }
 
     .jumbotron p,

@@ -79,6 +79,7 @@ footer a {
     text-align: center;
     min-height: 40px;
     margin: 0;
+    word-wrap: normal;
 }
 
 #collapseMobile .card-body p {
