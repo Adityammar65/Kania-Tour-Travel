@@ -102,6 +102,46 @@ footer a {
     font-size: 0.75rem;
 }
 
+#jabar{
+    color: white;
+    background-image: url('../images/monas.jpeg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#jatim {
+    color: white;
+    background-image: url('../images/bromo.jpeg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#jateng {
+    color: white;
+    background-image: url('../images/prambanan.jpeg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sumatera {
+    color: white;
+    background-image: url('../images/bunaken.jpeg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#kalimantan {
+    color: white;
+    background-image: url('../images/sulawesi.jpeg');
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
     #brand {
