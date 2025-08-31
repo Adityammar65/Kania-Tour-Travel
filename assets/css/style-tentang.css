@@ -69,22 +69,4 @@ footer a {
     footer {
         font-size: 0.75rem;
     }
-
-    .table th,
-    .table td {
-        font-size: 0.75rem;
-    }
-
-    #table-title,
-    #form-title {
-        font-size: 1rem;
-    }
-
-    #form-sewa label,
-    #form-sewa input,
-    #form-sewa .form-text,
-    #form-sewa .btn,
-    #category {
-        font-size: 0.7rem;
-    }
 }

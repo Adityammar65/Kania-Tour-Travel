@@ -83,7 +83,7 @@ footer a {
 
     .jumbotron p,
     .jumbotron h1 {
-        font-size: 0.7rem;
+        font-size: 0.85rem;
     }
 
     #contact {
@@ -94,7 +94,8 @@ footer a {
         text-align: center;
     }
 
-    #copyright {
+    #copyright,
+    #creator-link {
         margin-top: 16px;
         text-align: center;
     }
@@ -104,12 +105,12 @@ footer a {
     }
 
     footer {
-        font-size: 0.7rem;
+        font-size: 0.75rem;
     }
 
     .carousel-item .carousel-caption h5,
     .carousel-item .carousel-caption p {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
     }
 
     .carousel-item img {
