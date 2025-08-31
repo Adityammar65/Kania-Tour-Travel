@@ -9,6 +9,7 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style-tentang.css">
+    <script src="assets/script/script.js"></script>
     <title>Kania Tour Travel | Tentang Kami</title>
 </head>
 
@@ -46,12 +47,110 @@
 
     <!--JUMBOTRON BRAND-->
     <div id="brand-section" class="jumbotron text-center py-3 px-4 py-md-5 px-md-5">
-        <h1 class="display-6 pt-md-5 fw-bold">Selamat Datang di Kania Tour & Travel</h1>
-        <p class="lead fw-medium">Sejak Agustus 2013, Kania Tour & Travel hadir sebagai penyedia layanan transportasi
-            dan perjalanan wisata yang terpercaya.</p>
+        <h1 class="display-6 pt-md-5 fw-bold">Kania Tour & Travel</h1>
+        <p class="lead fw-medium">Kania Tour & Travel adalah perusahaan jasa transportasi dan perjalanan wisata yang
+            berdiri sejak Agustus 2013. Kami telah dipercaya melayani berbagai kebutuhan perjalanan di kota-kota besar
+            Indonesia, serta menjadi mitra bagi banyak perusahaan ternama, baik BUMN maupun swasta. Dengan mengutamakan
+            profesionalisme, tanggung jawab, dan menjaga privasi klien, kami berkomitmen memberikan layanan terbaik bagi
+            setiap pelanggan.</p>
         <hr class="my-2 my-md-4 border-3">
-        <p class="fw-medium">Selain paket tour, kami hadir dengan layanan sewa transportasi yang siap mengantar Anda ke
-            berbagai destinasi di seluruh Indonesia, di antaranya:</p>
+        <p class="fw-medium">Kami menyediakan layanan transportasi dan perjalanan yang berfokus pada kenyamanan,
+            kebersihan, serta keselamatan pelanggan. Kania Tour & Travel siap melayani berbagai kebutuhan, mulai dari
+            perjalanan dinas kantor, paket tour, wisata keluarga, pernikahan, ziarah, hingga berbagai acara lainnya,
+            dengan tujuan utama menghadirkan pengalaman perjalanan yang aman dan memuaskan.</p>
+    </div>
+
+    <!--CARDS-->
+    <div class="container my-5" id="highlight">
+        <div class="row d-none d-md-block">
+            <div class="col-md d-none d-md-flex flex-row justify-content-center">
+
+                <!--CARD 1-->
+                <div class="card mx-3">
+                    <img src="assets/images/sea-carousel-1-1.jpeg" class="card-img-top rounded">
+                </div>
+
+                <!--CARD 2-->
+                <div class="card mx-3">
+                    <img src="assets/images/jeep-carousel-1-1.jpeg" class="card-img-top rounded">
+                </div>
+
+                <!--CARD 3-->
+                <div class="card mx-3">
+                    <img src="assets/images/gantungan-carousel1-1.jpeg" class="card-img-top rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--CAROUSEL (MOBILE DEVICE ONLY)-->
+    <div id="carouselAbout" class="carousel slide d-block d-md-none py-3">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselAbout" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselAbout" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselAbout" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/images/gantungan-carousel1-1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/jeep-carousel-1-1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/images/sea-carousel-1-1.jpeg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAbout" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselAbout" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--FORM CONTACT-->
+    <div class="container">
+        <div class="row py-3">
+            <div class="col">
+                <h4 class="text-center" id="form-title">Hubungi kami!</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center py-3">
+            <div class="col-md-6">
+                <form id="form-kontak">
+                    <div class="mb-3">
+                        <label for="exampleInputText1" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="exampleInputText1">
+                        <div class="form-text">Isi nama Anda di sini</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                        <div class="form-text">Isi email Anda di sini</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputText1" class="form-label">Nomor yang dapat dihubungi</label>
+                        <input type="text" class="form-control" id="exampleInputText1">
+                        <div class="form-text">Nomor Telp/whatsapp</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputText1" class="form-label">Subjek</label>
+                        <input type="text" class="form-control" id="exampleInputText1">
+                        <div class="form-text">Isi subjek di sini</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <div class="form-text">Isi pesan di sini</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim</button>
+                </form>
+            </div>
+        </div>
     </div>
 
     <!--FOOTER-->
